@@ -1,0 +1,213 @@
+.heading{
+  overflow:hidden;
+}
+.navbar{
+  background-color: #000001;
+  overflow: hidden;
+  padding: 0;
+  float: right;
+  width: 45%;
+  
+}
+
+.our-logo{
+  overflow:hidden;
+  margin-top: 0px;
+  float: left;
+}
+
+.navbar a {
+  font-weight: 900;
+  float: right;
+  bottom: 0;
+  color: #fffffd;
+  text-align: center;
+  padding:  14px 18px;
+   text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color:  #000001;
+  color: #48008b;
+}
+
+body{
+  
+}
+
+.Title{
+padding-top: 20px;
+text-align: center;
+}
+.form-row {
+  padding: 10px 0;
+  display:  flex;
+}
+
+.form-row label {
+  padding-right: 10px;
+}
+
+.form-row input{
+  flex: 1;
+}
+
+
+
+.column-layout{
+  max-width: 1400px;
+  width: 95%;
+  margin: 40px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+
+.main-column{
+  flex: 3;
+  order: 2;
+padding: 0px 80px;
+}
+
+.text-kvp{
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+}
+
+.call-container {
+  max-width: 1400px;
+margin: 40px auto 0 auto;
+  width: 80%;
+  display: flex;
+    align-items: center;
+  align-items: stretch;
+}
+
+@media(min-width: 900px){
+.call-container {
+      display: flex;
+  justify-content:space-between ;
+}
+}
+
+
+.callout{
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #7c5c54;
+  flex-basis: 30%;
+  align-items: center;
+}
+
+.callout:nth-child(2){
+  flex-basis: 60%;
+   background-color: #b0473f;
+}
+
+.callout:nth-child(3){
+}
+.KVPborder{
+  
+}
+
+.adimg{
+    content: url(https://source.unsplash.com/random/200x400/?smile);
+}
+
+.penguinimg{
+    content: url(https://source.unsplash.com/random/200x400/?penguin);
+}
+
+.colimg{
+content: url(https://source.unsplash.com/random/400x400/?intense)
+}
+
+.KVPimg{
+  content: url(https://source.unsplash.com/random/800x800/?basketball);
+
+  border-radius: 50%;
+}
+
+
+a{
+color: white; 
+}
+
+footer{
+ align-items: center;
+  background-color:  #000001;
+text-align:center;
+color: white;
+}
+
+/*This is for the product page*/
+
+.hero-image{
+  display: flex;
+  background-image: url(https://source.unsplash.com/random/1200x600/?intense,athletic);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 15em;
+  height: 50%;
+  align-self: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text{
+  text-align: center;
+  color: 
+#eb9354;
+}
+
+.hero-header{
+  align-self:center;
+  font-size:50px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 96%;
+}
+
+.ProductSection {
+  margin-top: 40px;
+ margin-left: 40px;
+  display: flex;
+          flex-direction: row;
+ 
+          height: 150vh;
+}
+
+.ProductHeader {
+          width: 55%;
+          margin-top: 5%;
+          background-color: white;
+          text-align: left;
+          color: black;
+      }
+
+.ProductSummary {
+          width: 50%;
+          background-color: #a52a2a;
+  box-sizing: border-box;
+  padding: 10px;
+          text-align:center;
+          color: white;
+      }

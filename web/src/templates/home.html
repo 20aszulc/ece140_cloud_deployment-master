@@ -7,168 +7,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Page Info -->
-    <title>Agile Demo</title>
-    <meta name="author" content="Ramsin Khoshabeh">
-    <meta name="description" content="A Place to Call Home">
+    <title>Product Website</title>
+    <meta name="author" content="Amber Szulc">
+    <meta name="description" content="The Team same as index">
 
-    <link rel="stylesheet" type="text/css" href="css/agile.css">
+    <link rel="stylesheet" type="text/css" href="agile.css">
   </head>
 
   <body>
-
-    <div class='hero'>
-      <h1> Agile CSS Micro-Framework </h1>
-      <p> Experimental design for ECE140b </p>
-    </div>
-
-    <section class='padding-responsive'>
-
-      <div class='separator'>Database Records</div>
-
-      <table class='margin-top-xl'>
-        <thead>
-          <tr>
-            <th class='small'> First Name </th>
-            <th class='medium'> Last Name </th>
-            <th class='large'> Email </th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for user in users %}
-          <tr>
-            <td> {{user[0]}} </td>
-            <td> {{user[1]}} </td>
-            <td> {{user[2]}} </td>
-          </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-
-      <div class='separator'>Typography</div>
-
-      <h1 class='bordered'> H1 Element </h1>
-      <h2 class=''> H2 Element </h2>
-      <h3 class=''> H3 Element </h3>
-      <h4 class=''> H4 Element </h4>
-      <h5 class=''> H5 Element </h5>
-      <h6 class=''> H6 Element </h6>
-
-      <hr>
-
-      <p> I am a paragraph </p>
-
-      <ul>
-        <li> This is a list </li>
-        <li> And so is this </li>
-      </ul>
-
-      <ol>
-        <li> This is an ordered list-item </li>
-        <li> Don't forget about me!</li>
-      </ol>
-
-      <div class='separator'>
-        Responsive (2-column) Grid
-      </div>
-
-      <section class='responsive_grid'>
-        <div class='card bordered margin-none'> I'm a card! </div>
-        <div class='card bordered margin-none'> And so am I! </div>
-      </section>
-
-      <div class='separator'>Tables</div>
-
-      <table class='margin-top-xl'>
-        <thead>
-          <tr>
-            <th class='small'> column </th>
-            <th class='medium'> column </th>
-            <th class='large'> column </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td> column </td>
-            <td> column </td>
-            <td> column </td>
-          </tr>
-          <tr>
-            <td> column </td>
-            <td> column </td>
-            <td> column </td>
-          </tr>
-          <tr>
-            <td> column </td>
-            <td> column </td>
-            <td> column </td>
-          </tr>
-        </tbody>
-      </table>
-
-      <div class='separator'>Forms</div>
-
-      <div class='btn small '> Small Button </div>
-      <div class='btn small outline'> Small Button </div>
-      <div class='btn small pill'> Small Button </div>
-      <div class='btn small' disabled> Small Button </div> <BR><BR>
-
-      <div class='btn medium'> Medium Button </div>
-      <div class='btn medium outline'> Medium Button </div>
-      <div class='btn medium pill'> Medium Button </div>
-      <div class='btn medium' disabled> Medium Button </div> <BR><BR>
-
-      <form>
-
-        <section class='responsive_grid'>
-
-          <div class='field'>
-            <label> Enter your first name: &nbsp;</label>
-            <input type='text' name='name' value='' class='margin-top-lg'>
-          </div>
-
-          <div class='field select '>
-            <label> Choose a color: &nbsp;</label>
-            <div class="select margin-top-lg">
-              <select>
-                <option>First select</option>
-                <option>Red</option>
-                <option>Green</option>
-                <option>Blue</option>
-              </select>
-              <div class="select__arrow"></div>
+    <div  id="bkgd-img-main">
+        <div class="contained">
+          <div class="heading">
+            <div class="our-logo">
+              <a href="https://fontmeme.com/add-backgrounds/"><img src="https://fontmeme.com/permalink/220408/c38c98c69e87d6cdc92a81188181fe2f.png" alt="add-backgrounds" border="0"></a>
+              </div>
+      
+            <div class="navbar">
+              <a href="#shop">ComingSoon</a>
+              <a href="./product.html">Product</a>
+              <a href="./KVP.html">KVP</a>
+                <a class="active" href="#home">Home</a>
             </div>
+            <a href =#theProduct class="main-link">Learn More</a>
           </div>
-        </section>
+        </div><!--end of image-->
+      </div>
+      <div class="TeamInfo">
+         <h1 class="TeamInfo">
+           Team Members
+           </h1>
+      </div>
+      <div>
+      <div class="bkgd-img" id="John">
+       <p> Kevin - the Brains
+        </p>
+      </div>
+      <div class="bkgd-img" id= "Paul"> 
+      <p>
+         Yichen - the Hot One
+      </p>
+      </div>
+      <div class="bkgd-img" id= "George">
+      <p>
+         Mike - the Chill One
+      </p>
+      </div>
+        <div class="bkgd-img" id="Ringo">
+      <p>
+         Amber - Apart of the group
+      </p>
+        
+        </div>
+          <div class= "spacing"></div>  
+      
+      <div class="productInfo"  id="theProduct" > 
+        <h1 class="productInfo">
+           The Product
+           </h1>
+          <div class= "spacing"></div>  
+        <p>This product measures people's postures while shooting a basketball to improve their athletic preformance and prevent injury. It will be a wrist and combined with a tracking device software to update them on their real-time preformance when shooting</p> 
+      
+      </div>
+      
+      <section class='padding-responsive'>
 
-        <section class='responsive_grid'>
-          <div class="field">
-            <label> Choose an Item </label>
-            <label class="margin-top-lg control control--checkbox">First checkbox
-              <input type="checkbox" checked="checked" />
-              <div class="control__indicator"></div>
-            </label>
-            <label class="control control--checkbox">Second checkbox
-              <input type="checkbox" />
-              <div class="control__indicator"></div>
-            </label>
-          </div>
+        <div class='separator'>Our Team as a table</div>
+  
+        <table class='margin-top-xl'>
+          <thead>
+            <tr>
+              <th class='small'> First Name </th>
+              <th class='medium'> Last Name </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for user in users %}
+            <tr>
+              <td> {{user[0]}} </td>
+              <td> {{user[1]}} </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
 
-          <div class="field">
-            <label> Choose an Item </label>
-            <label class="margin-top-lg control control--radio">First radio
-              <input type="radio" name="radio" checked="checked" />
-              <div class="control__indicator"></div>
-            </label>
-            <label class="control control--radio">Second radio
-              <input type="radio" name="radio" />
-              <div class="control__indicator"></div>
-            </label>
-          </div>
-        </section>
 
-      </form>
-
-    </section>
+      <footer>
+        <p class="text-footer"> Thanks. creator: Amber Szulc </p> 
+      </footer>
 
   </body>
-</html>
+  </html>
